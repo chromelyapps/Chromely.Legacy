@@ -1,4 +1,4 @@
-This is legacy Chromely and not actively supported. For active cross-platform Chromely see - [.NET Core 3/MacOS supported Chromely](https://github.com/chromelyapps/Chromely).
+This is legacy Chromely and not actively supported. For active cross-platform Chromely see - [.NET Core 3/Win/Linux/MacOS supported Chromely](https://github.com/chromelyapps/Chromely).
 ---
 
 Chromely is a lightweight alternative to <a href="https://github.com/ElectronNET/Electron.NET">Electron.NET</a>, <a href="https://github.com/electron/electron">Electron</a> for .NET/.NET Core developers.
