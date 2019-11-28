@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Platforms>AnyCPU</Platforms>
+    <ProductVersion>4.0.0.1</ProductVersion>
+    <AssemblyVersion>4.0.0.1</AssemblyVersion>
+    <FileVersion>4.0.0.1</FileVersion>
+    <Version>4.0.0.1</Version>
+    <Authors>Chromely Projects</Authors>
+    <Company>Chromely Projects</Company>
+    <PackageTags>Cef Chromium HTML5 Desktop Chromely CefGlue CefSharp Restful  Ajax HTTP XHR MessageRouter JavascriptIntegration NetStandard .NET Core</PackageTags>
+    <Description>This is a .NET Standard library. It is the base/core library required to build either Chromely CefSharp or Chromely CefGlue apps. It has all the common features and functionalities for both types of apps on either Windows or Linux.</Description>
+    <Copyright>Copyright © 2017-2019 Chromely Projects</Copyright>
+    <PackageLicenseUrl>https://github.com/chromelyapps/Chromely/blob/master/LICENSE.md</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/chromelyapps/Chromely</PackageProjectUrl>
+    <PackageIconUrl>https://github.com/chromelyapps/Chromely/blob/master/nugets/chromely.ico?raw=true</PackageIconUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>
+      - Breaking changes!
+      - Added CefGlue Subprocess - https://github.com/chromelyapps/Chromely/wiki/Sub-Process
+      - Added WindowPlacement options - NoResize, NoMinMaxBoxes - https://github.com/chromelyapps/Chromely/wiki/Window-Flags-and-Custom-Window-Creation-Styles
+      - Added custom window creation style - https://github.com/chromelyapps/Chromely/wiki/Window-Flags-and-Custom-Window-Creation-Styles
+      - Added exposure of Window handle for custom messaging.
+    </PackageReleaseNotes>
+    <RepositoryUrl>https://github.com/chromelyapps/Chromely</RepositoryUrl>
+    <RepositoryType>Github Repository</RepositoryType>
+    <Configurations>Debug;Release;ReleaseLinux;DebugLinux</Configurations>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netstandard2.0\Chromely.Core.xml</DocumentationFile>
+    <WarningsAsErrors>NU1605</WarningsAsErrors>
+    <NoWarn>1701;1702; NU5125</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard2.0\Chromely.Core.xml</DocumentationFile>
+    <NoWarn>1701;1702; NU5125;7035</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)' == 'ReleaseLinux' ">
+    <Optimize>true</Optimize>
+    <NoWarn>1701;1702; NU5125;7035</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)' == 'DebugLinux' ">
+    <Optimize>true</Optimize>
+    <NoWarn>1701;1702; NU5125;7035</NoWarn>
+  </PropertyGroup>
+ 
+</Project>
