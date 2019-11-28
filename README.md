@@ -1,6 +1,3 @@
-<p align="center"><img src="https://github.com/chromelyapps/Chromely/blob/master/nugets/chromely.ico?raw=true" /></p>
-<h1 align="center">Chromely</h1>
-
 This is legacy Chromely and not actively supported. For active cross-platform Chromely see - [.NET Core 3/MacOS supported Chromely](https://github.com/chromelyapps/Chromely).
 ---
 
@@ -16,14 +13,6 @@ Options of communicating (IPC) with rendering process are via:
 2. Generic Message Routing ([Xilium.CefGlue](https://bitbucket.org/xilium/xilium.cefglue/wiki/Home)) - more info @ [Generic Message Routing](https://github.com/chromelyapps/Chromely/wiki/Generic-Message-Routing).
 3. Ajax HTTP/XHR ([Xilium.CefGlue](https://bitbucket.org/xilium/xilium.cefglue/wiki/Home), [CefSharp](https://github.com/cefsharp/CefSharp)) -  more info @ [Custom Scheme Handling](https://github.com/chromelyapps/Chromely/wiki/Custom-Scheme-Handling).
  4. Real-time with Websocket (ws) ([Xilium.CefGlue](https://bitbucket.org/xilium/xilium.cefglue/wiki/Home)) -   more info @ [Real-time with Websocket](https://github.com/chromelyapps/Chromely/wiki/Real-time-with-Websocket).
-
-[<h4>Roadmap & Help Wanted</h4>](https://github.com/chromelyapps/Chromely/wiki/Roadmap-and-Help-Wanted) 
-
-##### If you like Chromely, please give it a star - it helps! #####
-
-Have a quick question? Wanna chat? Connect on  [![Join the chat at https://gitter.im/chromely_/Lobby](https://badges.gitter.im/chromely_/Lobby.svg)](https://gitter.im/chromely_/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-Have an app/project/tool using Chromely - [please share!](https://github.com/chromelyapps/Chromely/issues/63)
 
 ### Platforms
 Cross-platform - Windows, Linux. Built on CefGlue, CefSharp, NET Standard 2.0, .NET Core 2.0, .NET Framework 4.61 and above.
