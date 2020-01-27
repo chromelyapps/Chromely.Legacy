@@ -45,7 +45,7 @@ For more info/documentation, please check [Chromely wiki](https://github.com/chr
 <br>[![Chromely + Vue](https://img.shields.io/badge/Chromely%20Apps-Built%20with%20Vue-green.svg)](https://github.com/chromelyapps/Chromely.Legacy/wiki/Chromely-Apps) 
 
 ### Demo Code
-Get started with the [demos](https://github.com/chromelyapps/demo-projects). 
+Get started with the [demos](https://github.com/chromelyapps/Chromely.Legacy/tree/master/Demos). 
 
 ### Creating a Simple App (Using CefGlue with Winapi host)
 For more info see - [Getting Started](https://github.com/chromelyapps/Chromely.Legacy/wiki/Getting-Started)
@@ -95,7 +95,7 @@ For more info on demos - [Demos](https://github.com/chromelyapps/Chromely.Legacy
 
 ### References
 * WinApi - https://github.com/prasannavl/WinApi
-* Cef - https://bitbucket.org/chromiumembedded/cef
+* CEF - https://bitbucket.org/chromiumembedded/cef
 * Xilium.CefGlue - https://gitlab.com/xiliumhq/chromiumembedded/cefglue
 * CefSharp - https://github.com/cefsharp/CefSharp
 * Json Serializer - https://github.com/lbv/litjson
