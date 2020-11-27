@@ -51,7 +51,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="CefSharp.Common" Version="71.0.2" />
+    <PackageReference Include="CefSharp.Common" Version="86.0.241" />
     <PackageReference Include="WinApi" Version="4.0.0" />
   </ItemGroup>
 
